@@ -1,0 +1,16 @@
+# Local hosting identity and private configuration
+.openai/
+.env
+.env.*
+!.env.example
+
+# Dependencies and local tooling
+node_modules/
+__pycache__/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local publication packages
+*.zip
+*.tar.gz
